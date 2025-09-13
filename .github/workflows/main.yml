@@ -2,8 +2,8 @@ name: Run V2Ray Collector
 
 on:
   schedule:
-    - cron: '0 2 * * *'  # اجرای روزانه ساعت 02:00 UTC
-  workflow_dispatch:     # اجرای دستی
+    - cron: '0 2 * * *'  # اجرای روزانه ساعت ۲ صبح UTC
+  workflow_dispatch:
 
 jobs:
   build:
