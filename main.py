@@ -3,8 +3,8 @@ import json
 import base64
 import ping3
 import geoip2.database
-import schedule
-import time
+schedule
+time
 from github import Github
 from datetime import datetime
 
@@ -26,7 +26,7 @@ def test_server(server):
     try:
         decoded = base64.b64decode(server + "==").decode("utf-8")
         if "add" in decoded:
-            ip = decoded.split("add":")[-1].split(",")[0].replace('"','')
+            ip = decoded.split("add":)[-1].split(",")[0].replace('"','')
             delay = ping3.ping(ip, timeout=1)
             return ip, delay
     except:
