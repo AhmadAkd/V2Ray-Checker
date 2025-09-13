@@ -3,8 +3,8 @@ import json
 import base64
 import ping3
 import geoip2.database
-schedule
-time
+import schedule
+import time
 from github import Github
 from datetime import datetime
 
