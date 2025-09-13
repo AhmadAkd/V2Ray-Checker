@@ -1,0 +1,5 @@
+requests
+PyGithub
+ping3
+geoip2
+schedule
